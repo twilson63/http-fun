@@ -1,10 +1,11 @@
 {
-  "name": "send-json",
+  "name": "@twilson63/send-json",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^5.9.0",
     "tape": "^4.9.1"
-  }
+  },
+  "homepage": "https://github.com/twilson63/http-fun"
 }

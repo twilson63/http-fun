@@ -7,5 +7,5 @@
     "eslint": "^5.9.0",
     "tape": "^4.9.1"
   },
-  "homepage": "https://github.com/twilson63/http-fun/http-compose#readme"
+  "homepage": "https://github.com/twilson63/http-fun"
 }
