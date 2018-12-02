@@ -1,0 +1,14 @@
+{
+  "name": "@twilson63/body-json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "raw-body": "^2.3.3"
+  },
+  "homepage": "https://github.com/twilson63/http-fun"
+}
