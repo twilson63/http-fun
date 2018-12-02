@@ -1,0 +1,10 @@
+{
+  "name": "queryparams",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "tape": "^4.9.1"
+  }
+}
