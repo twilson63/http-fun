@@ -1,0 +1,12 @@
+{
+  "name": "weather-forecast",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@twilson63/http-compose": "^1.0.0",
+    "@twilson63/queryparams": "^1.0.0",
+    "@twilson63/send-json": "^1.0.0",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}

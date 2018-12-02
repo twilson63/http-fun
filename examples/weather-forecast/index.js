@@ -1,12 +1,3 @@
-# http-fun
-
-A set of composable functions that can provide resuable helpers for https serverless functions.
-
-## Usage
-
-Weather Fetch example
-
-```js
 require('isomorphic-fetch')
 const httpCompose = require('@twilson63/http-compose')
 const queryparams = require('@twilson63/queryparams')
@@ -33,4 +24,3 @@ module.exports = httpCompose(
   sendJSON,
   queryparams
 )
-```
