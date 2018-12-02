@@ -1,5 +1,5 @@
 {
-  "name": "http-compose",
+  "name": "@twilson63/http-compose",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
