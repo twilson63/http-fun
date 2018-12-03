@@ -4,7 +4,7 @@ A set of composable functions that can provide resuable helpers for https server
 
 - `@twilson63/http-compose` - is the compose function, it takes on or more unairy functions as arguments and calls them from right to left passing the returned result as the ctx object.
 
-> Unairy Functions
+> httpComposable Functions
 
 - `@twilson63/send-json` - is a function that adds a send json function as a prop to the ctx object.
 - `@twilson63/queryparams` - is a function that adds a query object that includes all the query params from the url.
