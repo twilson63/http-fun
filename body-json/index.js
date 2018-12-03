@@ -8,7 +8,7 @@ module.exports = ({ req, res, ...rest }) => {
   function body() {
     return getRawBody(req, {
       encoding: true
-    }).then(safeStringify)
+    }).then(safeParse)
   }
   return { req, res, body, ...rest }
 }
@@ -17,9 +17,9 @@ module.exports = ({ req, res, ...rest }) => {
  *
  * @param {string} text
  */
-function safeStringify(text) {
+function safeParse(text) {
   try {
-    return JSON.stringify(text)
+    return JSON.parse(text)
   } catch (err) {
     return null
   }
