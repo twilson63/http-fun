@@ -2,6 +2,14 @@
 
 A set of composable functions that can provide resuable helpers for https serverless functions.
 
+- `@twilson63/http-compose` - is the compose function, it takes on or more unairy functions as arguments and calls them from right to left passing the returned result as the ctx object.
+
+> Unairy Functions
+
+- `@twilson63/send-json` - is a function that adds a send json function as a prop to the ctx object.
+- `@twilson63/queryparams` - is a function that adds a query object that includes all the query params from the url.
+- `@twilson63/body-json` - is a function that adds a body prop to the ctx object, when invoked it will parse the body of the request and return it as a json document.
+
 ## Usage
 
 Weather Fetch example
